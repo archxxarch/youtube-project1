@@ -1,6 +1,6 @@
 export const todayText = [
     {
-        img: "	https://i.ytimg.com/vi/qEDVAXLIB_8/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDUqXSG5x1rXBN-BrVGIDUj8RDCiA",
+        img: "https://i.ytimg.com/vi/qEDVAXLIB_8/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDUqXSG5x1rXBN-BrVGIDUj8RDCiA",
         title: "🇻🇳 단돈 50만원으로 다녀온 3박4일 베트남 하노이&하이퐁 여행기",
         desc: "안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 쏘이를 소개합니다. 여행 유튜버 쏘이는 세계 각지의 아름다운 풍경과 문화를 탐험하며 그 경험을 우리에게 소개해주는 채널을 운영하고 있습니다. 그 화려한 여행 목적지와 유용한 여행 팁을 제공하여 여행 열망을 자극하고, 구독자들에게 새로운 여행 경험을 선사합니다.",
         author: "쏘이Soy The World",

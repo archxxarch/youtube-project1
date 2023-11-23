@@ -7,7 +7,7 @@ const Today = () => {
     return (
         <section id='today'>
             <div className="today__inner">
-                <div className="today__thumb">
+                <div className="today__thumb play__icon">
                     <Link
                         to={`/video/${todayText[0].videoId}`}
                         style={{ backgroundImage: `url(${todayText[0].img})` }}
