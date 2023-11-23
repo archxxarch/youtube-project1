@@ -8,34 +8,34 @@ import { fetchFromAPI } from '../utils/api'
 
 const Home = () => {
     const [channelVideo, setChannelVideo] = useState([]);
-    const [channelVideo2, setChannelVideo2] = useState([]);
-    const [channelVideo3, setChannelVideo3] = useState([]);
-    const [channelVideo4, setChannelVideo4] = useState([]);
-    const [channelVideo5, setChannelVideo5] = useState([]);
+    // const [channelVideo2, setChannelVideo2] = useState([]);
+    // const [channelVideo3, setChannelVideo3] = useState([]);
+    // const [channelVideo4, setChannelVideo4] = useState([]);
+    // const [channelVideo5, setChannelVideo5] = useState([]);
 
     useEffect(() => {
         const v1 = "UCugz3-UlkX2P77PtK1Ju0RA";
-        const v2 = "CNhofiqfw5nl-NeDJkXtPvw";
-        const v3 = "UCHpIHu4LzmNuD8bsE6mZLSA";
-        const v4 = "UC9gxOp_-R78phMHmv2bW_sg";
-        const v5 = "UCpsivHVNaBnIAPhkLBZcWQg";
+        // const v2 = "CNhofiqfw5nl-NeDJkXtPvw";
+        // const v3 = "UCHpIHu4LzmNuD8bsE6mZLSA";
+        // const v4 = "UC9gxOp_-R78phMHmv2bW_sg";
+        // const v5 = "UCpsivHVNaBnIAPhkLBZcWQg";
 
         const fetchResults = async () => {
             try {
                 const videosData = await fetchFromAPI(`search?channelId=${v1}&part=snippet&order=date`);
                 setChannelVideo(videosData.items);
 
-                const videosData2 = await fetchFromAPI(`search?channelId=${v2}&part=snippet&order=date`);
-                setChannelVideo2(videosData2.items);
+                // const videosData2 = await fetchFromAPI(`search?channelId=${v2}&part=snippet&order=date`);
+                // setChannelVideo2(videosData2.items);
 
-                const videosData3 = await fetchFromAPI(`search?channelId=${v3}&part=snippet&order=date`);
-                setChannelVideo3(videosData3.items);
+                // const videosData3 = await fetchFromAPI(`search?channelId=${v3}&part=snippet&order=date`);
+                // setChannelVideo3(videosData3.items);
 
-                const videosData4 = await fetchFromAPI(`search?channelId=${v4}&part=snippet&order=date`);
-                setChannelVideo4(videosData4.items);
+                // const videosData4 = await fetchFromAPI(`search?channelId=${v4}&part=snippet&order=date`);
+                // setChannelVideo4(videosData4.items);
 
-                const videosData5 = await fetchFromAPI(`search?channelId=${v5}&part=snippet&order=date`);
-                setChannelVideo5(videosData5.items);
+                // const videosData5 = await fetchFromAPI(`search?channelId=${v5}&part=snippet&order=date`);
+                // setChannelVideo5(videosData5.items);
 
             } catch (error) {
                 console.log('Error fetching data', error)
