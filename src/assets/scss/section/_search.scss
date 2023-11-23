@@ -1,0 +1,39 @@
+.search__inner {
+    width: 100%;
+    padding: 17px 40px 18px 40px;
+    border-bottom: 1px solid #fff;
+
+    label {
+        display: none;
+    }
+
+    .search__input {
+        width: 100%;
+        background-color: #fff;
+        border: 1px solid var(--black600);
+        padding: 15px 30px;
+        border-radius: 50px;
+        color: var(--black);
+    }
+}
+
+@media(max-width: 800px) {
+    .search__inner {
+        padding-left: 240px;
+        position: fixed;
+        background-color: #fff;
+        z-index: 100;
+    }
+
+    #search {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .search__input {
+        background-color: #fff;
+    }
+}
