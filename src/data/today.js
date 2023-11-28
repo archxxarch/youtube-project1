@@ -1,6 +1,15 @@
 export const todayText = [
     {
-        img: "https://i.ytimg.com/vi/qEDVAXLIB_8/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLDUqXSG5x1rXBN-BrVGIDUj8RDCiA",
+        img: "https://i.ytimg.com/vi/iZAZXmHbaHQ/hqdefault.jpg",
+        title: "주변 친한 사람들이 이민을 가기 시작했습니다...너무 슬프네요",
+        desc: "안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 조튜브를 소개합니다. 여행 유튜버 조튜브은 세계 각지의 아름다운 풍경과 문화를 탐험하며 그 경험을 우리에게 소개해주는 채널을 운영하고 있습니다. 그 화려한 여행 목적지와 유용한 여행 팁을 제공하여 여행 열망을 자극하고, 구독자들에게 새로운 여행 경험을 선사합니다.",
+        author: "Joe튜브",
+        date: "2023.11.04",
+        videoId: "iZAZXmHbaHQ",
+        channelId: "UCag-vLxfCjAUNebW9gA0yRg"
+    },
+    {
+        img: "https://i.ytimg.com/vi/FEwzEB33ssI/hqdefault.jpg",
         title: "🇻🇳 단돈 50만원으로 다녀온 3박4일 베트남 하노이&하이퐁 여행기",
         desc: "안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 쏘이를 소개합니다. 여행 유튜버 쏘이는 세계 각지의 아름다운 풍경과 문화를 탐험하며 그 경험을 우리에게 소개해주는 채널을 운영하고 있습니다. 그 화려한 여행 목적지와 유용한 여행 팁을 제공하여 여행 열망을 자극하고, 구독자들에게 새로운 여행 경험을 선사합니다.",
         author: "쏘이Soy The World",
@@ -8,7 +17,7 @@ export const todayText = [
         videoId: "qEDVAXLIB_8",
         channelId: "UCugz3-UlkX2P77PtK1Ju0RA"
     }, {
-        img: "https://i.ytimg.com/vi/pY1dxKtlryg/hq720.jpg?sqp=-…AFwAcABBg==&rs=AOn4CLBKiq6CjJz9nvaDC5jB0t81GYkVuA",
+        img: "https://i.ytimg.com/vi/pY1dxKtlryg/hq720.jpg",
         title: "미국여행에 1500만원 썼지만 행복해요 🔥겁없는 한 여자의 《미국 여행》 2시간 몰아보기🔥",
         desc: "안녕하세요! 여러분, 오늘은 특별한 여행 유튜버 쏘이를 소개합니다. 여행 유튜버 쏘이는 세계 각지의 아름다운 풍경과 문화를 탐험하며 그 경험을 우리에게 소개해주는 채널을 운영하고 있습니다. 그 화려한 여행 목적지와 유용한 여행 팁을 제공하여 여행 열망을 자극하고, 구독자들에게 새로운 여행 경험을 선사합니다.",
         author: "쏘이Soy The World",
